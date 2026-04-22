@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="120" viewBox="0 0 240 120">
+  <rect width="240" height="120" rx="16" fill="none"/>
+  <!-- umbrella canopy -->
+  <path d="M20 70 C60 20, 180 20, 220 70 L200 70 C170 40, 70 40, 40 70 Z" fill="#ffd166" stroke="#e6ab3c" stroke-width="3"/>
+  <!-- handle -->
+  <rect x="118" y="70" width="4" height="36" fill="#6b4f2b"/>
+  <path d="M118 106 C118 112, 132 112, 132 106" stroke="#6b4f2b" stroke-width="4" fill="none"/>
+</svg>
