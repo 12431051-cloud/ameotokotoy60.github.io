@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>雨男 - 雨を避けろ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <div id="timer">60</div>
+    <div id="message" class="overlay hidden">
+    <img id="logo" src="assets/logo.png" alt="ロゴ" />
+  <h1 id="message-title"></h1>
+  <p id="message-sub"></p>
+      <button id="startBtn">スタート</button>
+      <button id="restartBtn" class="hidden">もう一度</button>
+    </div>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+  <script defer src="game.js"></script>
+</body>
+</html>
